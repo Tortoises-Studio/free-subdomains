@@ -59,7 +59,7 @@ Unfortunately, you cannot use Cloudflare with these domains because they are in 
 
 Now go to the corresponding zone file for your chosen domain.
 
-For **example.cluster.ws**, edit the zone file in [zones/is-very.buzz.yaml](zones/is-very.buzz.yaml), and follow the format used by the other domains to set the nameservers given by your DNS provider.
+For **example.is-very.buzz**, edit the zone file in [zones/is-very.buzz.yaml](zones/is-very.buzz.yaml), and follow the format used by the other domains to set the nameservers given by your DNS provider.
 
 ### Renew your domain
 
