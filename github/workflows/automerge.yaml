@@ -17,7 +17,7 @@ jobs:
 
       - name: Fetch main repo
         run: |
-          git remote add upstream https://github.com/Olivr/free-domain.git
+          git remote add upstream https://github.com/Tortoises-Studio/free-subdomains.git
           git fetch upstream
       - name: Make sure there's only one TLD affected
         run: |
