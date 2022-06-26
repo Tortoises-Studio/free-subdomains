@@ -5,8 +5,8 @@ DOMAIN=$2
 
 [ -z "$EXPIRY" ] && EXPIRY="is about to expire"
 
-FROM_EMAIL="no-reply@olivr.com"
-FROM_NAME="Oliv'r"
+FROM_EMAIL="noreply.free-subdomains@is-very.buzz"
+FROM_NAME="free subdomains"
 SUBJECT="$DOMAIN $EXPIRY!"
 BODY_TEXT="Your domain $DOMAIN $EXPIRY! \nYou should follow the instructions at https://github.com/Tortoises-Studio/free-subdomains if you would like to renew it."
 BODY_HTML="<p>Your domain <strong>$DOMAIN</strong> $EXPIRY</p> <p>You should follow the instructions at <a href=\\\"https://github.com/Tortoises-Studio/free-subdomains\\\">https://github.com/Tortoises-Studio/free-subdomains</a> if you would like to renew it."
